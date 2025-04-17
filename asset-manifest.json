@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/sghdz019/my-portfolio/static/css/main.aea477e0.css",
-    "main.js": "/sghdz019/my-portfolio/static/js/main.815507c6.js",
-    "static/media/shopeer.png": "/sghdz019/my-portfolio/static/media/shopeer.6c91effe91a9c1f1c56d.png",
-    "static/media/construction.jpg": "/sghdz019/my-portfolio/static/media/construction.38f54ced331f13702e7d.jpg",
-    "static/media/worm.jpg": "/sghdz019/my-portfolio/static/media/worm.b469a6e79a958828fbb3.jpg",
-    "static/media/walmart.png": "/sghdz019/my-portfolio/static/media/walmart.38fd646bc50096e93bdb.png",
-    "static/media/grid.jpg": "/sghdz019/my-portfolio/static/media/grid.c217ba2c45ade97951c4.jpg",
-    "static/media/swbc.png": "/sghdz019/my-portfolio/static/media/swbc.0c54fccef9f2abcd3198.png",
-    "static/media/Nav.png": "/sghdz019/my-portfolio/static/media/Nav.3d49fb7b0cd167798a59.png",
-    "static/media/cog.png": "/sghdz019/my-portfolio/static/media/cog.bb9aceabd36ede531a24.png",
-    "index.html": "/sghdz019/my-portfolio/index.html",
-    "main.aea477e0.css.map": "/sghdz019/my-portfolio/static/css/main.aea477e0.css.map",
-    "main.815507c6.js.map": "/sghdz019/my-portfolio/static/js/main.815507c6.js.map"
+    "main.css": "/my-portfolio/static/css/main.581015a8.css",
+    "main.js": "/my-portfolio/static/js/main.1830935b.js",
+    "static/media/shopeer.png": "/my-portfolio/static/media/shopeer.6c91effe91a9c1f1c56d.png",
+    "static/media/construction.jpg": "/my-portfolio/static/media/construction.38f54ced331f13702e7d.jpg",
+    "static/media/worm.jpg": "/my-portfolio/static/media/worm.b469a6e79a958828fbb3.jpg",
+    "static/media/walmart.png": "/my-portfolio/static/media/walmart.38fd646bc50096e93bdb.png",
+    "static/media/grid.jpg": "/my-portfolio/static/media/grid.c217ba2c45ade97951c4.jpg",
+    "static/media/swbc.png": "/my-portfolio/static/media/swbc.0c54fccef9f2abcd3198.png",
+    "static/media/Nav.png": "/my-portfolio/static/media/Nav.3d49fb7b0cd167798a59.png",
+    "static/media/cog.png": "/my-portfolio/static/media/cog.bb9aceabd36ede531a24.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.581015a8.css.map": "/my-portfolio/static/css/main.581015a8.css.map",
+    "main.1830935b.js.map": "/my-portfolio/static/js/main.1830935b.js.map"
   },
   "entrypoints": [
-    "static/css/main.aea477e0.css",
-    "static/js/main.815507c6.js"
+    "static/css/main.581015a8.css",
+    "static/js/main.1830935b.js"
   ]
 }
