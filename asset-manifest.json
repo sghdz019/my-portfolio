@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sghdz019/my-portfolio/static/css/main.eb818fd2.css",
+    "main.js": "/sghdz019/my-portfolio/static/js/main.dd627164.js",
+    "static/media/shopeer.png": "/sghdz019/my-portfolio/static/media/shopeer.6c91effe91a9c1f1c56d.png",
+    "static/media/construction.jpg": "/sghdz019/my-portfolio/static/media/construction.38f54ced331f13702e7d.jpg",
+    "static/media/worm.jpg": "/sghdz019/my-portfolio/static/media/worm.b469a6e79a958828fbb3.jpg",
+    "static/media/walmart.png": "/sghdz019/my-portfolio/static/media/walmart.38fd646bc50096e93bdb.png",
+    "static/media/grid.jpg": "/sghdz019/my-portfolio/static/media/grid.c217ba2c45ade97951c4.jpg",
+    "static/media/swbc.png": "/sghdz019/my-portfolio/static/media/swbc.0c54fccef9f2abcd3198.png",
+    "static/media/Nav.png": "/sghdz019/my-portfolio/static/media/Nav.3d49fb7b0cd167798a59.png",
+    "static/media/cog.png": "/sghdz019/my-portfolio/static/media/cog.bb9aceabd36ede531a24.png",
+    "index.html": "/sghdz019/my-portfolio/index.html",
+    "main.eb818fd2.css.map": "/sghdz019/my-portfolio/static/css/main.eb818fd2.css.map",
+    "main.dd627164.js.map": "/sghdz019/my-portfolio/static/js/main.dd627164.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb818fd2.css",
+    "static/js/main.dd627164.js"
+  ]
+}
