@@ -1,0 +1,103 @@
+.intro-container {
+    /* margin-top: 150px; */
+    font-family: Circularstd, sans-serif; 
+    /* background-color: #fdfdfd; 
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-left: 45px;
+    margin-right: 45px; */
+    /* height: fit-content; */
+    height: 100vh; /* 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.intro-container h1{
+    text-align: center;
+}
+
+.intro-container p{
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .intro-container {
+        height: fit-content;
+        margin-top: 130px;
+        margin-bottom: 50px;
+        padding-left: 9px;
+        padding-right: 9px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* CSS */
+.button-74 {
+    font-family: Circularstd, sans-serif;
+    background-color: #fdfdfd;
+    border: 2px solid #422800;
+    border-radius: 15px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: rgb(129, 138, 245);
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px; 
+  }
+}
+
+.gear-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.rotating-gear {
+    width: 80px; /* Adjust size as needed */
+    height: 80px;
+    animation: rotation 8s infinite linear;
+}
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

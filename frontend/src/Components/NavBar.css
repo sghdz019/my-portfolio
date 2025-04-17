@@ -1,0 +1,167 @@
+.top-nav {
+    z-index: 1000;
+    background-color: #f5f5f5;
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: 700px;
+    height: 65px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 42px;
+    position: fixed;
+    inset: 0% 0% auto;
+    box-shadow: 3px 3px 16px 1px #b4b4b4;
+    font-family: Circularstd, sans-serif;
+}
+
+/* @media screen and (max-width: 991px) {
+    .top-nav {
+        border: 1px solid #000;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline;
+        left: 5%;
+        right: 5%;
+    }
+} */
+
+@media screen and (max-width: 767px) {
+    .top-nav {
+        width: 440px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.nav-container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav-menu {
+    float: none;
+    justify-content: space-between;
+    display: flex
+;
+}
+
+.w-nav-menu {
+    float: center; 
+    position: relative;
+}
+
+@media screen and (max-width: 479px) {
+    .top-nav {
+        border: 1px solid #000;
+        width: auto;
+        margin-left: 11px;
+        margin-right: 11px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.img {
+    vertical-align: left;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.worm-image {
+    margin-top: 4px;
+}
+
+.brand {
+    float: none;
+    display: inline-block;
+}
+
+.w-nav-brand {
+    float: left;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-label-link {
+    min-width: auto;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.nav-label-link:hover {
+    color: rgb(129, 138, 245);
+    transform: scale(1.05);
+}
+
+.w-nav-link {
+    vertical-align: top;
+    color: #222;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+
+.menu-button {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 760px) {
+    /* Show Hamburger Button */
+    .menu-button {
+        display: block;
+    }
+  
+    /* Hide Navigation Links by Default */
+    .nav-links {
+        display: flex; 
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        text-align: left;
+        background-color: var(--vl);
+        border: 1px solid #000;
+        border-radius: 15px;
+        box-shadow: 3px 3px 16px 1px #b4b4b4;
+        background: #f5f5f5;
+        max-height: 0;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+        overflow: hidden; 
+        transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;; 
+
+    }
+  
+    /* Show Menu When Active */
+    .nav-links.active {
+        max-height: 250px;
+        opacity: 1;
+        visibility: visible;
+    }
+  
+    /* Style for Mobile Menu Links */
+    .nav-links a {
+        padding: 20px;
+        display: block;
+        text-align: left;
+        margin-left: 0;
+    }
+  }
+
+
+  
