@@ -39,8 +39,8 @@ function NavBar() {
                 <div className={`nav-links ${isOpen ? "active" : ""}`}>
                     <Link to="/" class="nav-label-link w-nav-link">Home</Link>
                     <Link to="./projects" class="nav-label-link w-nav-link">Projects</Link>
-                    <Link to="/Publications" class="nav-label-link w-nav-link">Publications</Link>
-                    <Link to="/About Me" class="nav-label-link w-nav-link" >About Me</Link>
+                    <Link to="./Publications" class="nav-label-link w-nav-link">Publications</Link>
+                    <Link to="./About" class="nav-label-link w-nav-link" >About Me</Link>
                 </div>
             </nav>
       </div>

@@ -1,0 +1,62 @@
+.about-section {
+    margin-top: 150px;
+}
+
+.heading-15, .heading-16, .heading-17 {
+    z-index: 1;
+    margin-bottom: 0;
+    position: relative;
+}
+
+h2 {
+    color: var(--black);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Circularstd, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    position: static;
+}
+.about-section-unde {
+    background-color: #DE5D83;
+    border: 5px solid #DE5D83;
+    width: 150px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    transition: opacity .2s;
+    position: relative;
+    transform: rotate(0);
+}
+
+.paragraph-7 {
+    margin-top: 0; /* default for all paragraphs */
+    padding: 0;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    position: relative;
+}
+
+.paragraph-7:first-of-type {
+    margin-top: 30px; /* only the first one gets top margin */
+}
+
+.image-wrap {
+    float: right;
+    width: 250px; /* or any width that fits your layout */
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    height: 300px;
+    width: auto;
+}
+
+.about-buttons{
+    display: flex;
+    gap: 12px; 
+    justify-content: center; 
+    margin-top: 10px;
+}
